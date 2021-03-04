@@ -1,0 +1,30 @@
+
+/*
+ Copyright   : Techyrick.com
+ Description : Find String length without using string function.
+ ============================================================================
+ */
+
+#include<stdio.h>
+
+int main(void) {
+
+
+	char *str, ch;
+	int i = 0;
+
+	printf("Enter a string : ");
+
+
+	while ((ch = getchar()) != '\n') {
+
+			str[i] = ch;
+			i++;
+		}
+
+
+	printf("Length of string : %d ",i);
+
+	return 0;
+}
+
